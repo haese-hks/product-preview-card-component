@@ -23,9 +23,9 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Github Pages](https://haese-hks.github.io/recipe-page/)
+- Live Site URL: [Github Pages](https://haese-hks.github.io/product-preview-card-component/)
 
-- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/resipe-page-solution-x3J8Nf0aFP)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/product-preview-card-component-using-flexbox-and-media-query-TL8IZjd3O4)
 
 ### Built With
 

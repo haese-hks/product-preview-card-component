@@ -106,6 +106,9 @@ h1 {
 
 .btn-cart:hover {
   background-color: var(--green-700);
+}
+
+a {
   text-decoration: none;
 }
 
