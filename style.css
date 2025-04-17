@@ -1,0 +1,132 @@
+:root {
+  /* Primary Colors */
+  --green-500: hsl(158, 36%, 37%);
+  --green-700: hsl(158, 42%, 18%);
+
+  /* Neutral Colors */
+  --black: hsl(212, 21%, 14%);
+  --grey: hsl(228, 12%, 48%);
+  --cream: hsl(30, 38%, 92%);
+  --white: hsl(0, 0%, 100%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 14px;
+  color: var(--grey);
+  background-color: var(--cream);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+}
+
+main {
+  width: 100%;
+  max-width: 29em;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+h1 {
+  font-family: 'Fraunces', sans-serif;
+  font-size: 2.45rem;
+  color: var(--black);
+  line-height: 1.1;
+  margin-bottom: 1rem;
+}
+
+.product-image {
+  max-width: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.product-category {
+  font-size: 1rem;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+.product-details {
+  max-width: 100%;
+  padding: 1.5rem;
+}
+
+.product-description {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 1.3rem;
+  letter-spacing: 0.3px;
+}
+
+.product-price {
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.current-price {
+  font-size: 2rem;
+  font-family: 'Fraunces', sans-serif;
+  color: var(--green-500);
+}
+
+.original-price {
+  margin-left: 1rem;
+}
+
+.btn-cart {
+  max-width: 100%;
+  background-color: var(--green-500);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  color: var(--white);
+  gap: 1rem;
+  transition: 0.3s ease-in-out;
+}
+
+.btn-cart:hover {
+  background-color: var(--green-700);
+  text-decoration: none;
+}
+
+@media (min-width: 48em) {
+  main {
+    max-width: 48em;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .pic {
+    flex: 1;
+  }
+
+  .product-details {
+    flex: 1;
+  }
+}
+
+@media (min-width: 64em) {
+  main {
+    max-width: 48em;
+  }
+}
